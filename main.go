@@ -3,10 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/nickchirgin/leetcode/carFleet"
+	"github.com/nickchirgin/leetcode/buysell"
 )
 func main() {
-	nums := []int{10,8,0,5,3}
-	speed := []int{2,4,1,1,3}
-	fmt.Println(carFleet.CarFleet(12, nums, speed))
+	nums := []int{7,6,4,3,1}
+	fmt.Println(buysell.MaxProfit(nums))
 }
