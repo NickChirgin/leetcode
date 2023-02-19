@@ -3,9 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/nickchirgin/leetcode/buysell"
+	"github.com/nickchirgin/leetcode/substring"
 )
 func main() {
-	nums := []int{7,6,4,3,1}
-	fmt.Println(buysell.MaxProfit(nums))
+	fmt.Println(substring.LongestSubstring("abcabcbb"))
 }
