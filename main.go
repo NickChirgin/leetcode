@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/nickchirgin/leetcode/charreplacement"
+	"github.com/nickchirgin/leetcode/check"
 )
 func main() {
-	fmt.Println(charreplacement.CharacterReplacement("ABBB", 0))
+	fmt.Println(check.CheckInclusion("adc","dcda" ))
 }

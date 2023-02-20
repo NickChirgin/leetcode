@@ -11,7 +11,7 @@ func CharacterReplacement(s string, k int) int {
 			maxf = max(maxf, count[s[r]])
 			
 			if (r - l + 1) - maxf > k{
-					count[s[l]] -= 1
+					count[s[l]]--
 					l++
 			}
 			res = max(res, r - l + 1)
