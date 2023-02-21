@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/nickchirgin/leetcode/check"
+	"github.com/nickchirgin/leetcode/substring"
 )
 func main() {
-	fmt.Println(check.CheckInclusion("adc","dcda" ))
+	fmt.Println(substring.MinWindow("ADOBECODEBANC", "ABC"))
 }
