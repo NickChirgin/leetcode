@@ -39,6 +39,7 @@ func MinWindow(s string, t string) string {
 			for k, v := range tMap {
 				copy[k] = v
 			}
+			copy[rune(s[second])]--
 			if len(result) > len(s[left:r+1]) {
 				result = substring
 			}
