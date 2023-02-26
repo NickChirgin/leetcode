@@ -1,3 +1,4 @@
+package binarysearch
 func canEat(piles []int, timeLimit, speed int) bool {
 	timeNeed := 0
 	for _, banana := range piles {
