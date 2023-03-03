@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	nums := []int{1, 2, 3}
-	fmt.Println(backtracking.Permute(nums))
+	nums := []int{1, 2, 2}
+	fmt.Println(backtracking.SubsetsWithDup(nums))
 }
