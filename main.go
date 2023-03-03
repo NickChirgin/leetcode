@@ -3,9 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/nickchirgin/leetcode/substring"
+	"github.com/nickchirgin/leetcode/backtracking"
 )
 
 func main() {
-	fmt.Println(substring.MinWindow("ADOBECODEBANC", "ABC"))
+	nums := []int{1, 2, 3}
+	fmt.Println(backtracking.Permute(nums))
 }
