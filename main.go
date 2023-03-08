@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	nums := []int{1, 2, 2}
-	fmt.Println(backtracking.SubsetsWithDup(nums))
+	board := [][]string{{"C","A","A"},{"A","A","A"},{"B","C","D"}}
+	fmt.Println(backtracking.Exist(board, "AAB"))
 }
