@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/nickchirgin/leetcode/backtracking"
+	"github.com/nickchirgin/leetcode/heaps"
 )
 
 func main() {
-	board := [][]string{{"C","A","A"},{"A","A","A"},{"B","C","D"}}
-	fmt.Println(backtracking.Exist(board, "AAB"))
+	board := [][]int{{3, 2},{1, 3},{2, 6}}
+	fmt.Println(heaps.GetOrder(board))
 }
